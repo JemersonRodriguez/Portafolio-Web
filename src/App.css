@@ -54,7 +54,7 @@ main {
   margin-left: 70px;
   margin-right: 70px;
   height: 500px;
-  flex-wrap: wrap;  /*Si no alcanzan por se hace una fila extra */
+  flex-wrap: nowrap;  /*Si no alcanzan por se hace una fila extra */
 }
 
 /* Decoradores CSS */
