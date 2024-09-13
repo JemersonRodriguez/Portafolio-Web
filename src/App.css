@@ -1,0 +1,72 @@
+/* Estilo base para la página */
+.portafolio-web {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+/* Estilo del header y logo */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+}
+
+.header-logo img {
+  height: 80px;
+  width: 90px;
+}
+
+.header-foto-perfil {
+  background: darkcyan;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: -1;
+  position: relative;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-foto-perfil img {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+}
+
+.header-contenido-principal {
+  font-family: monospace;
+  color: #3fa8a3;
+  font-size: 8px;
+}
+
+/* Estilo adicional para el main */
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 500px;
+  flex-wrap: wrap;  /*Si no alcanzan por se hace una fila extra */
+}
+
+/* Decoradores CSS */
+@media (max-width: 1130px) {
+  main {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    height: auto;
+  }
+}
+
+
+
+/* .pulser:first-child {}, .pulser:nth-child(2) {}, .pulser:nth-child(3){}

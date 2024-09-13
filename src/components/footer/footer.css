@@ -1,0 +1,113 @@
+/* footer.css */
+.footer-container {
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(6deg, darkcyan 3.72%, rgba(6, 146, 129, 0.6) 50.28%);
+  transition: width 0.5s ease, margin-left 0.5s ease;
+  height: 20px;
+  position: fixed;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.relative-footer {
+  position: relative;
+  width: 100%; /* Ajusta al ancho del contenedor padre */
+}
+
+.fixed-footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;  
+}
+
+.collapsed-footer {
+  position: fixed;
+  width: 860px;
+  margin-left: 70px;
+  border-radius: 40px;
+  animation: slideUpFooter 0.5s ease forwards, expandHeight 0.5s ease forwards 0.5s;
+}
+
+.collapsed-footer.reversing {
+  animation: collapseHeight 0.5s ease forwards, slideDownFooter 0.5s ease forwards 0.5s;
+}
+
+/* Define la animación slideUpFooter */
+@keyframes slideUpFooter {
+  from {
+    bottom: 0;
+  }
+  to {
+    top: 400px;
+  }
+}
+
+/* Define la animación expandHeight */
+@keyframes expandHeight {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 572px;
+  }
+}
+
+/* Define la animación collapseHeight */
+@keyframes collapseHeight {
+  from {
+    height: 572px;
+  }
+  to {
+    height: 0px;
+  }
+}
+
+/* Define la animación slideDownFooter */
+@keyframes slideDownFooter {
+  from {
+    top: 400px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+
+.grupo-iconos-footer img {
+  height: 25px;
+  width: 28px;
+}
+
+.grupo-iconos-footer {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 25px;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.grupo-iconos-footer.collapsed {
+  opacity: 0;
+}
+
+.contenido-adicional {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: left;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.contenido-adicional img {
+  display: block;
+  margin: 10px 0;
+  max-width: 100%;
+  height: 10px;
+}
