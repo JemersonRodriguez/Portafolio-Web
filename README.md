@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Explicación de las secciones:
+1. **Nombre del Proyecto**: Es el título de tu portafolio o el nombre que quieras darle.
+2. **Descripción**: Una breve explicación del propósito del proyecto.
+3. **Contenidos**: Un índice que facilita la navegación por las diferentes secciones del archivo.
+4. **Instalación**: Instrucciones sobre cómo clonar el proyecto y ejecutarlo localmente.
+5. **Uso**: Una explicación de las características y secciones del portafolio.
+6. **Tecnologías**: Las tecnologías que utilizaste para construir el portafolio.
+7. **Contribuciones**: Una guía simple para que otros sepan cómo colaborar en tu proyecto.
+8. **Licencia**: Información sobre la licencia que utilizas para tu código (MIT, GPL, etc.).
 
-Currently, two official plugins are available:
+### Ejemplo básico con contenido para un portafolio web:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```md
+# Mi Portafolio Web
 
-## Expanding the ESLint configuration
+Este es mi portafolio web donde muestro algunos de los proyectos que he desarrollado, así como mis habilidades en diseño y desarrollo web.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Descripción
 
-- Configure the top-level `parserOptions` property like this:
+El portafolio incluye una sección sobre mí, una galería de proyectos, un resumen de mis habilidades y un formulario de contacto.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Instalación
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/JemerUCR/Portafolio-Web.git
