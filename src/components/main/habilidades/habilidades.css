@@ -43,6 +43,11 @@
   color: #1f7a7a; /* Color que combina con el esquema de colores */
 }
 
+@media (max-width: 1130px) {
+  .habilidades-container {
+    font-size: 6px;
+  }
+}
 
 
 
