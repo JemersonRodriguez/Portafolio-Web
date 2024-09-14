@@ -25,3 +25,15 @@
     height: 30px;
     width: 30px;
 }
+
+@media (max-width: 1130px) {
+    .informacion-experiencias {
+        font-size: 5px;
+        padding-top: 10px;
+    }
+
+    .grupo-iconos img {
+        height: 20px;
+        width: 20px;
+    }
+}

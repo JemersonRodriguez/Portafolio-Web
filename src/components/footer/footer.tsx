@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./footer.css";
-
 import whatsaap from "../../assets/iconos/whatsapp.svg";
 import facebook from "../../assets/iconos/facebook.svg";
 import github from "../../assets/iconos/github.svg";

@@ -119,6 +119,11 @@
     gap: 5px;
   }
 
+  .grupo-iconos-footer img {
+    height: 20px;
+    width: 20px;
+  }
+
   .contenido-adicional img {
     display: block;
     height: 3px;

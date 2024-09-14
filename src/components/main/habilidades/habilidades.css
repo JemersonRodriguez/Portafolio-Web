@@ -44,10 +44,14 @@
 
 @media (max-width: 1130px) {
   .habilidades-container {
-    font-size: 6px;
+    font-size: 5px;
     height: 900px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .titulo-habilidades {
+    font-size: 11px;
   }
 }
 
