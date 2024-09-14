@@ -67,6 +67,12 @@ main {
     margin-left: 0;
     margin-right: 0;
   }
+
+  .header-contenido-principal {
+    font-family: monospace;
+    color: #3fa8a3;
+    font-size: 5px;
+  }
 }
 
 
