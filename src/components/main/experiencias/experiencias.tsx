@@ -50,7 +50,7 @@ const Experiencias: React.FC = () => {
 
   return (
     <div className="experiencias-container">
-      <h1>Experiencias</h1>
+      <h1 className="titulo-experiencias">Experiencias</h1>
       {experienciasData.map((exp, index) => (
         <InformacionExperiencias
           key={index}

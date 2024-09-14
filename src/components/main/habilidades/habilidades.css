@@ -32,7 +32,6 @@
 }
 
 .titulo-habilidades {
-  margin-bottom: 20px; /* Margen inferior para separar el título del contenido */
   cursor: pointer; /* Añade el cursor de puntero para indicar interactividad */
   transition: color 0.3s ease; /* Añade una transición para el cambio de color */
   font-size: 15px;
@@ -46,6 +45,9 @@
 @media (max-width: 1130px) {
   .habilidades-container {
     font-size: 6px;
+    height: 900px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 

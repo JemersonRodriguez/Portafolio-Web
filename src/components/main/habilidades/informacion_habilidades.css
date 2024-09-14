@@ -70,16 +70,16 @@
     perspective: 1000px; /* Añade perspectiva para el efecto 3D */
     display: flex;
     flex: 1;
-    height: auto;
   }
 
 .text-container {
     flex-direction: column;
     flex: 1;
     gap: 10px;
-    height: 75px;
+    height: 55px;
     width: 75px;
 }
+
 
 .info-content .front {
     text-align: left;

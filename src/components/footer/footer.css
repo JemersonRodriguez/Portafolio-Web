@@ -5,8 +5,7 @@
   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
   background: linear-gradient(6deg, darkcyan 3.72%, rgba(6, 146, 129, 0.6) 50.28%);
   transition: width 0.5s ease, margin-left 0.5s ease;
-  height: 20px;
-  position: fixed;
+  width: 100%;
   color: rgb(255, 255, 255);
   font-family: monospace;
   font-size: 14px;
@@ -86,6 +85,7 @@
   flex-direction: row;
   box-sizing: border-box;
   justify-content: center;
+  align-items: center;
   gap: 25px;
   opacity: 1;
   transition: opacity 0.5s ease;

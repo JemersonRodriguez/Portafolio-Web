@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 45px;
+  height: 100vh;
 }
 
 /* Estilo del header y logo */
@@ -61,7 +62,7 @@ main {
 @media (max-width: 1130px) {
   main {
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     justify-content: space-around;
     height: auto;
     margin-left: 0;
@@ -71,7 +72,7 @@ main {
   .header-contenido-principal {
     font-family: monospace;
     color: #3fa8a3;
-    font-size: 5px;
+    font-size: 6px;
   }
 }
 
