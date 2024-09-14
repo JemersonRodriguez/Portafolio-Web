@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./footer.css";
 
+import whatsaap from "../../assets/iconos/whatsapp.svg";
+import facebook from "../../assets/iconos/facebook.svg";
+import github from "../../assets/iconos/github.svg";
+import mail from "../../assets/iconos/mail.svg";
+import gps from "../../assets/iconos/gps.svg";
+import downloand from "../../assets/iconos/download.svg";
+
 interface FooterProps {
   habilidadesColapsadas: boolean;
   habilidadesWidth: number;
@@ -35,32 +42,32 @@ const Footer: React.FC<FooterProps> = ({
         <div className={`grupo-iconos-footer ${collapsing ? "collapsed" : ""}`}>
           <span>Contactos</span>
           <img
-            src="/src/assets/iconos/whatsapp.svg"
+            src={whatsaap}
             alt="icono-whatsapp"
             data-tooltip="WhatsApp"
           />
           <img
-            src="/src/assets/iconos/facebook.svg"
+            src={facebook}
             alt="icono-facebook"
             data-tooltip="Facebook"
           />
           <img
-            src="/src/assets/iconos/github.svg"
+            src={github}
             alt="icono-github"
             data-tooltip="GitHub"
           />
           <img
-            src="/src/assets/iconos/mail.svg"
+            src={mail}
             alt="icono-mail"
             data-tooltip="Email"
           />
           <img
-            src="/src/assets/iconos/gps.svg"
+            src={gps}
             alt="icono-gps"
             data-tooltip="GPS"
           />
           <img
-            src="/src/assets/iconos/download.svg"
+            src={downloand}
             alt="icono-descarga"
             data-tooltip="Download"
           />
