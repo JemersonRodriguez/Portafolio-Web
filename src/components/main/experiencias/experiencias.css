@@ -17,3 +17,9 @@
   font-weight: bold;
   color: aliceblue;
 }
+
+@media (max-width: 1130px) {
+  main {
+    font-size: 6px;
+  }
+}
