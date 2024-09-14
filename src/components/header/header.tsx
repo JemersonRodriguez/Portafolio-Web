@@ -14,8 +14,8 @@ const Header: React.FC<Header> = ({ nombre, profesion }) => {
       </div>
 
       <div className="header-contenido-principal">
-        <h1>Nombre: {nombre}</h1>
-        <h2>Profesión: {profesion}</h2>
+        <h1>{nombre}</h1>
+        <h2>{profesion}</h2>
       </div>
 
       <div className="header-foto-perfil">

@@ -42,8 +42,11 @@ header {
 
 .header-contenido-principal {
   font-family: monospace;
-  color: #3fa8a3;
+  color: rgb(255, 255, 255);
   font-size: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* Estilo adicional para el main */
@@ -71,7 +74,7 @@ main {
 
   .header-contenido-principal {
     font-family: monospace;
-    color: #3fa8a3;
+    color: rgb(255, 255, 255);
     font-size: 6px;
   }
 
