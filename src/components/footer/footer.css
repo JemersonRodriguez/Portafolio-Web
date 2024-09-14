@@ -78,6 +78,7 @@
 .grupo-iconos-footer img {
   height: 25px;
   width: 28px;
+  cursor: pointer;
 }
 
 .grupo-iconos-footer {
@@ -122,6 +123,7 @@
   .grupo-iconos-footer img {
     height: 20px;
     width: 20px;
+    cursor: pointer;
   }
 
   .contenido-adicional img {

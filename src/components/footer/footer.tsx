@@ -6,6 +6,7 @@ import github from "../../assets/iconos/github.svg";
 import mail from "../../assets/iconos/mail.svg";
 import gps from "../../assets/iconos/gps.svg";
 import downloand from "../../assets/iconos/download.svg";
+import curriculum from "../../docs/Curriculum_JemersonRodriguez_702670242.pdf";
 
 interface FooterProps {
   habilidadesColapsadas: boolean;
@@ -18,6 +19,14 @@ const Footer: React.FC<FooterProps> = ({
 }) => {
   const [collapsing, setCollapsing] = useState(false);
   const [reversing, setReversing] = useState(false);
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = curriculum; // Usa el import del PDF directamente
+    link.download = "Curriculum_JemersonRodriguez.pdf"; // Nombre del archivo al descargarlo
+    link.click(); // Simula el clic para iniciar la descarga
+  };
+
 
   useEffect(() => {
     if (habilidadesColapsadas) {
@@ -44,6 +53,7 @@ const Footer: React.FC<FooterProps> = ({
             src={whatsaap}
             alt="icono-whatsapp"
             data-tooltip="WhatsApp"
+            onClick={() => window.open("https://wa.me/62483036")}
           />
           <img
             src={facebook}
@@ -54,21 +64,25 @@ const Footer: React.FC<FooterProps> = ({
             src={github}
             alt="icono-github"
             data-tooltip="GitHub"
+            onClick={() => window.open("https://github.com/JemerUCR")}
           />
           <img
             src={mail}
             alt="icono-mail"
             data-tooltip="Email"
+            onClick={() => window.open("mailto:jemerson0095@gmail.com")}
           />
           <img
             src={gps}
             alt="icono-gps"
             data-tooltip="GPS"
+            onClick={() => window.open("https://maps.app.goo.gl/xfNWMJYN9wLQJvXa6")}
           />
           <img
             src={downloand}
             alt="icono-descarga"
             data-tooltip="Download"
+            onClick={handleDownload}
           />
         </div>
       )}
