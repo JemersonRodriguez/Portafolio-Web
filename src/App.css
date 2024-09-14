@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 64px;
   height: 100vh;
+  justify-content: space-between;
 }
 
 /* Estilo del header y logo */
