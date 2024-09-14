@@ -2,7 +2,7 @@
 .portafolio-web {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 64px;
   height: 100vh;
 }
 
